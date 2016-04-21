@@ -5,6 +5,7 @@
     <title>@ViewBag.Title</title>
     <link href="@Url.Content("~/Content/bootstrap.min.css")" rel="stylesheet" type="text/css"/>
     <link href="@Url.Content("~/Content/bootstrap-datepicker.min.css")" rel="stylesheet" type="text/css"/>
+    <link href="@Url.Content("~/Content/sticky-footer.css")" rel="stylesheet" type="text/css" />
     <link href="@Url.Content("~/Content/Style.css")" rel="stylesheet" type="text/css"/>
     <script src="@Url.Content("~/Scripts/jquery-1.12.3.min.js")"></script>
     <script src="@Url.Content("~/Scripts/bootstrap.min.js")"></script>
@@ -13,11 +14,13 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
-                <p>Logo Here</p>
-            </div>
-            <div class="col-lg-9">
-                <p>Banner</p>
+            <div id="topElement">
+                <div class="col-lg-3">
+                    <p>Logo Here</p>
+                </div>
+                <div class="col-lg-9">
+                    <p>Banner</p>
+                </div>
             </div>
         </div>
         <div class="row">
